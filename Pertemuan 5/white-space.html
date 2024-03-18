@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" lang="en">
+<head>
+    <title>
+        white-space
+    </title>
+
+    <style>
+        .padding-all {
+        border: 1px solid rgb(255, 6, 6);
+        padding: 10px 5px 2px 20px;
+        }
+        .padding-each {
+        border: 1px solid black;
+        padding-top: 5px;
+        padding-right: 10px;
+        padding-bottom: 15px;
+        padding-left: 25px;
+        }
+        </style>
+       
+</head>
+    <body>
+    <h2> normal white-space </h2>
+        <p style="white-space: normal;" class="padding-all"> 
+            WHITE-SPACE: NORMAL ->
+            TIDAK PEDULI JARAK KOSONG 
+            TAPI AKAN MEMBUNGKUS KE BARIS BERIKUTNYA SAAT KELUAR BATAS
+        </p>
+
+    <h2> nowrap white-space </h2>
+        <p style="white-space: nowrap;" class="padding-each"> 
+            WHITE-SPACE: NOWRAP ->
+            TIDAK PEDULI JARAK KOSONG 
+            DAN TIDAK MEMBUNGKUS WALAUPUN KELUAR BATAS
+        </p>
+    <h2> pre pada white-space </h2>
+        <p style="white-space: pre;" class="padding-each"> 
+            WHITE-SPACE:   PRE ->
+            mengikuti jarak kosong aslinya
+            seperti ini jika tulisan dari ini sangatlah panjang sehingga ia melewati batas dari lebar yang ditentukan aslinya, lihat sendiri apa yang terjadi
+        </p>
+    <h2> pre-wrap white-space </h2>
+        <p style="white-space: pre-wrap;" class="padding-each"> 
+            WHITE-SPACE:     pre-wrap ->
+            mengikuti jarak kosong aslinya
+            seperti ini jika tulisan dari ini sangatlah panjang sehingga ia melewati batas dari lebar yang ditentukan aslinya, lihat sendiri apa yang terjadi
+        </p>
+    <h2> pre-line white-space </h2>
+        <p style="white-space: pre-line;" class="padding-each"> 
+            WHITE-SPACE:     pre-line ->
+            mengikuti jarak kosong aslinya
+            itu dia!
+        </p>
+</html>
